@@ -1,10 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import UsContent from "../components/usContent"
 
 const AboutUs = () => (
   <>
     <Layout>
-      <h1>Nosotros</h1>
+      <UsContent />
     </Layout>
   </>
 )
