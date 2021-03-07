@@ -10,12 +10,12 @@ const HomeLink = styled(Link)`
   text-decoration: none;
 `
 
-const Header = () => {
+const Header = ({title}) => {
   return (
     <>
       <header
         css={css`
-          background-color: #222;
+          background-color: rgba(44,62,80);
           padding: 1rem;
         `}
       >
@@ -32,7 +32,7 @@ const Header = () => {
           `}
         >
           <HomeLink to="/">
-            <h1>Hotel Gatsby</h1>
+            <h1>{title}</h1>
           </HomeLink>
           <Navegation />
         </div>
